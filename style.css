@@ -1,0 +1,91 @@
+body{
+    background-image: url("Comment-devenir-fort-sur-FIFA-22.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+#opacity{
+    z-index: 1;
+    width: 99%;
+    height: 734px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.59);
+    visibility: hidden;
+    top: 0;
+
+}
+
+#container1 div{
+    z-index:2;
+    width:100px;
+    height:100px;
+    background-color: black;
+    position: absolute;
+    cursor: pointer;
+    background-color: transparent;
+}
+#goal{
+    margin-top: 39%;
+    margin-left: 46%;
+}
+#a1{
+    width: 110px;
+    margin-top: 8%;
+    margin-left: 26%;}
+#a2{
+    width: 109px;
+    margin-top: 7%;
+    margin-left: 46%;}
+#a3{
+    margin-left: 66%;
+    margin-top: 8%;
+}
+#m1{
+    height: 114px;
+    width: 117px;
+    margin-left: 31%;
+    margin-top: 19%;
+}
+#m2{
+    margin-left: 46%;
+    margin-top: 20%;
+}
+#m3{
+    width: 118px;
+    margin-left: 60%;
+    margin-top: 20%;
+}
+#d1{
+    width: 116px;
+    margin-left: 18%;
+    margin-top: 31%;
+}
+#d2{
+    width: 114px;
+    margin-left: 35%;
+    margin-top: 32%;
+}
+#d3{
+    margin-left: 57%;
+    margin-top: 32%;
+}
+#d4{
+    margin-top: 31%;
+    margin-left: 74%;
+}
+
+
+#container1{
+    width: 1200px;
+    height: 675px;
+}
+bar{
+    
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+#nav{
+    top:0;
+    position: absolute;
+    margin-left: 78%;
+}
+
