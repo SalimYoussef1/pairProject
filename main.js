@@ -86,9 +86,7 @@ function map(array, f) {
 function filter(array, predicate) {
  var acc = [];
  each(array, function (element, index) {
-   // notice we added the index here
    if (predicate(element, index)) {
-     // notice we added the index here
      acc.push(element);
    }
  });
@@ -200,4 +198,4 @@ each($("#container1")[0].children,function(e,i){
                     }
 
             })
-    
+        }}})
